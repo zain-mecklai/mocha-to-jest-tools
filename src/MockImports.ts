@@ -1,4 +1,1 @@
-
-export class MockImports {
-    
-}
+export class MockImports {}

@@ -1,6 +1,5 @@
-
 interface FileNameHash {
-    [key: string] : FileInformation;
+    [key: string]: FileInformation;
 }
 
 export class FileInformation {
@@ -20,5 +19,4 @@ export class FileInformation {
         v = new FileInformation(filename);
         return v;
     }
-
 }
